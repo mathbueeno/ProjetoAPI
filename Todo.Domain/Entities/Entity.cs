@@ -11,7 +11,7 @@ namespace Todo.Domain.Entities
 
         // Guid é um identificador único
         public Guid Id { get; private set; }
-
+    
         public bool Equals(Entity other)
         {
             return Id == other.Id;

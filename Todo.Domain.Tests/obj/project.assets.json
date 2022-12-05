@@ -1660,6 +1660,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Todo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        }
       }
     }
   },
@@ -6193,6 +6203,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Todo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Domain/Todo.Domain.csproj",
+      "msbuildProject": "../Todo.Domain/Todo.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6200,6 +6215,7 @@
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
+      "Todo.Domain >= 1.0.0",
       "coverlet.collector >= 3.1.0"
     ]
   },
@@ -6229,7 +6245,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj": {
+              "projectPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
