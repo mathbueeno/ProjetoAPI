@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Flunt.Notifications;
+using Flunt.Validations;
 using Todo.Domain.Commands.Contracts;
 
 namespace Todo.Domain.Commands 
 { 
-    public class CreateTodoCommands : ICommand
+    public class CreateTodoCommands : Notifiable<Notification>, ICommand
     {
         public CreateTodoCommands() { }
 
@@ -24,7 +26,12 @@ namespace Todo.Domain.Commands
 
         public void Validate()
         {
-            throw new NotImplementedException();
+            AddNotifications(
+                new Contract()
+                .Requires()
+                .HasMinLength(Title, 3, "Title", "Por favor, descreva melhor a tarefa!")
+                .hasMinLength(User, 6, "User", "Usuário inválido!")
+            );
         }
     }
 }
