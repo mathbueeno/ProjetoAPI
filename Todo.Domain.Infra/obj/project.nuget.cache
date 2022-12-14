@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UnRkf73GOlvLxpzxRsoQ6neg7/XIHcWM1eWHKAfDft3hdCzRVtCdfGCTWBuTHnnnLod31v1YXxfWM3wORd+hIQ==",
+  "dgSpecHash": "oK5aFyekkgJhN2w/Xi0QHKJASgY9dRe9teElomRwDzbl4DWxxdmgvejszXFhL8T2rR0T8I9oMUlsS4/uZ/06hQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+  "projectFilePath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mathe\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+    "C:\\Users\\mathe\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
   ],
   "logs": []
 }

@@ -11,6 +11,13 @@ namespace Todo.Domain.Entities
             User = user;
         }
 
+        public TodoItem(string title, string user, DateTime date)
+        {
+            Title = title;
+            User = user;
+            Date = date;
+        }
+
         // Private só a própria classe consegue se modificar.
         public string Title { get; private set; }
         public bool Done { get; private set; }

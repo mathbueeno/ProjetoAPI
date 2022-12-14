@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {}
+    "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {
+    "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+        "projectUniqueName": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
         "projectName": "Todo.Domain.Api",
-        "projectPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+        "projectPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\obj\\",
+        "outputPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
-                "projectPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
+              "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+                "projectPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
               },
-              "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj": {
-                "projectPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj"
+              "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -58,7 +58,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,18 +71,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+    "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+        "projectUniqueName": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
         "projectName": "Todo.Domain.Infra",
-        "projectPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+        "projectPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\obj\\",
+        "outputPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj": {
-                "projectPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj"
+              "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -119,7 +120,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -128,18 +130,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj": {
+    "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj",
+        "projectUniqueName": "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj",
         "projectName": "Todo.Domain",
-        "projectPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj",
+        "projectPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\Todo.Domain.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\ProjetoAPI\\Todo.Domain\\obj\\",
+        "outputPath": "E:\\Projetos\\ProjetoAPI\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,7 +172,7 @@
           "dependencies": {
             "flunt": {
               "target": "Package",
-              "version": "[2.0.5, )"
+              "version": "[1.0.5, )"
             }
           },
           "imports": [
@@ -179,7 +181,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -188,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
